@@ -43,6 +43,12 @@ This project uses Poetry and Node/NPM, so make sure to have those installed.
 2. `npm install`
 3. `cd client/ && npm install`
 4. Create `.env` and add your OpenAI token as `OPENAI_KEY`.
+5. To use gpt4all add the path to the model as `GPT_FOR_ALL_MODEL_PATH`
+
+### Notes on gpt4all setup
+
+1. Download the model from [gpt4all repo](https://github.com/nomic-ai/gpt4all)
+2. Follow instructions from [pyllamacpp](https://github.com/nomic-ai/pyllamacpp) to convert the model to ggml format
 
 ### Run the extension in debug mode
 
